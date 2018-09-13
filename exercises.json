@@ -1,0 +1,356 @@
+{
+  "easy": {
+    "strength": [
+      {
+        "name": "Liegestuetze",
+        "min": 5,
+        "max": 10,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Unterarmstuetz",
+        "min": 15,
+        "max": 30,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Seitstuetz",
+        "min": 10,
+        "max": 20,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Situps",
+        "min": 5,
+        "max": 10,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Ausfallschritt",
+        "min": 8,
+        "max": 14,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Ausfallschritt zur Seite",
+        "min": 8,
+        "max": 14,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Kniebeuge",
+        "min": 5,
+        "max": 10,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Wandsitzen",
+        "min": 15,
+        "max": 25,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Schulterbrücke",
+        "min": 10,
+        "max": 20,
+        "unit": "Sekunden"
+      }
+    ],
+    "mobility": [
+      {
+        "name": "Hueftbrecher",
+        "min": 15,
+        "max": 25,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Halbe Bruecke",
+        "min": 10,
+        "max": 30,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Fuesse halten",
+        "min": 20,
+        "max": 30,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Rueckenkratzer",
+        "min": 20,
+        "max": 30,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Tiefer Stand",
+        "min": 20,
+        "max": 30,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Hocke",
+        "min": 20,
+        "max": 30,
+        "unit": "Sekunden"
+      }
+    ]
+  },
+  "medium": {
+    "strength": [
+      {
+        "name": "Liegestuetze",
+        "min": 10,
+        "max": 20,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Handstand",
+        "min": 10,
+        "max": 20,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Unterarmstuetz",
+        "min": 20,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Seitstuetz",
+        "min": 20,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Situps",
+        "min": 15,
+        "max": 25,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Ausfallschritt",
+        "min": 12,
+        "max": 20,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Ausfallschritt zur Seite",
+        "min": 12,
+        "max": 20,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Kniebeuge",
+        "min": 15,
+        "max": 20,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Yoga-Kraehe",
+        "min": 10,
+        "max": 15,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Burpees",
+        "min": 5,
+        "max": 10,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Wandsitzen",
+        "min": 30,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Schulterbrücke",
+        "min": 20,
+        "max": 30,
+        "unit": "Sekunden"
+      }
+    ],
+    "mobility": [
+      {
+        "name": "Hueftbrecher",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Halbe Bruecke",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Fuesse halten",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Fuss ueber Kopf",
+        "min": 15,
+        "max": 25,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Rueckenkratzer",
+        "min": 20,
+        "max": 30,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Tiefer Stand",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Hocke",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Graetsche im Sitzen",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      }
+    ]
+  },
+  "hard": {
+    "strength": [
+      {
+        "name": "Liegestuetze",
+        "min": 20,
+        "max": 30,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Handstand",
+        "min": 20,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Unterarmstuetz",
+        "min": 60,
+        "max": 90,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Seitstuetz",
+        "min": 30,
+        "max": 45,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Situps",
+        "min": 20,
+        "max": 30,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Kopfstand",
+        "min": 15,
+        "max": 30,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Ausfallschritt",
+        "min": 20,
+        "max": 25,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Ausfallschritt zur Seite",
+        "min": 20,
+        "max": 25,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Kniebeuge",
+        "min": 25,
+        "max": 30,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Yoga-Kraehe",
+        "min": 20,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Burpees",
+        "min": 10,
+        "max": 20,
+        "unit": "Wiederholungen"
+      },
+      {
+        "name": "Wandsitzen",
+        "min": 40,
+        "max": 60,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Schulterbrücke",
+        "min": 30,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Standwaage",
+        "min": 20,
+        "max": 30,
+        "unit": "Sekunden"
+      }
+    ],
+    "mobility": [
+      {
+        "name": "Hueftbrecher",
+        "min": 30,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Bruecke",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Bein hoch halten",
+        "min": 15,
+        "max": 25,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Fuss ueber Kopf",
+        "min": 15,
+        "max": 25,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Tiefer Stand",
+        "min": 30,
+        "max": 45,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Hocke",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      },
+      {
+        "name": "Graetsche im Sitzen",
+        "min": 25,
+        "max": 40,
+        "unit": "Sekunden"
+      }
+    ]
+  }
+}
