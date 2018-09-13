@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
             wait_minutes = random.randint(wait_min, wait_max)
             print("{} - Next workout in {} minutes...".format(time.strftime("%H:%M"), wait_minutes))
-            time.sleep(wait_minutes) # * 60)
+            time.sleep(wait_minutes * 60)
         except KeyboardInterrupt as i:
             print("Stopping bot...")
             sys.exit()
