@@ -1,0 +1,6 @@
+bot.conf
+workouts.csv
+exercises.json
+
+__pycache__
+.idea

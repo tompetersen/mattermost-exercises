@@ -1,0 +1,56 @@
+{
+  "easy": {
+    "strength": [
+      {
+        "name": "exercise1",
+        "min": 5,
+        "max": 10,
+        "unit": "repetitions"
+      }
+    ],
+    "mobility": [
+      {
+        "name": "mobilityexercise1",
+        "min": 15,
+        "max": 25,
+        "unit": "seconds"
+      }
+    ]
+  },
+  "medium": {
+    "strength": [
+      {
+        "name": "exercise1",
+        "min": 5,
+        "max": 10,
+        "unit": "repetitions"
+      }
+    ],
+    "mobility": [
+      {
+        "name": "mobilityexercise1",
+        "min": 15,
+        "max": 25,
+        "unit": "seconds"
+      }
+    ]
+  },
+  "hard": {
+    "strength": [
+      {
+        "name": "exercise1",
+        "min": 5,
+        "max": 10,
+        "unit": "repetitions"
+      }
+    ],
+    "mobility": [
+      {
+        "name": "mobilityexercise1",
+        "min": 15,
+        "max": 25,
+        "unit": "seconds"
+      }
+    ]
+  }
+}

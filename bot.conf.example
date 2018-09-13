@@ -1,0 +1,25 @@
+[bot]
+server = 127.0.0.1
+port = 8065
+username = bot
+password = test
+team_name = test
+channel_name = test
+
+# json file containing strength and mobility exercises in (easy, medium, hard) categories
+exercise_file = exercises.json
+
+# first/final hour for workouts
+bot_active_from = 10
+bot_active_to = 17
+
+# min/max time between two workouts
+exercise_between_min = 90
+exercise_between_max = 120
+
+# number of strength/mobility exercises per workout
+exercise_strength_count = 3
+exercise_mobility_count = 3
+
+# csv file accomplished workouts are written to
+csv_workouts = workouts.csv
