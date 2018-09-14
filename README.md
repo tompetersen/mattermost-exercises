@@ -13,3 +13,9 @@ are recorded and you get exercise statistics for every user (in progress).
 ## Commands
 
 The bot can tell you available commands: `@bot-username help`
+
+## TODO
+
+- `current` command: Show current workout set again
+- `next` command: Show time of next workout set
+- statistics, statistics, statistics, ...
