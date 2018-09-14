@@ -16,6 +16,7 @@ The bot can tell you available commands: `@bot-username help`
 
 ## TODO
 
+- explanations in some form in the exercise list
 - `current` command: Show current workout set again
 - `next` command: Show time of next workout set
 - statistics, statistics, statistics, ...
