@@ -20,7 +20,7 @@ class WorkoutMessageHandler:
         "NAME has just finished his/her workout - come on you other couch potatoes!",
         "Excellent, NAME!",
         "Harder, better, faster, stronger - NAME!",
-        "I have just seen Arnold Schwarzenegger - Ah no, may bad - it's just NAME.",
+        "I have just seen Arnold Schwarzenegger - Ah no, my bad - it's just NAME.",
         ":+1:",
         ":muscle:",
         "Now back to work, Mr(s). Universe!",
