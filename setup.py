@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='mattermost-exercises',
-    version='0.0.1',
+    version='0.0.2',
     keywords='mattermost bot exercising',
     description='Exercising with the help of a mattermost bot',
     long_description=readme(),

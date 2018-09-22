@@ -65,7 +65,7 @@ class ExerciseRegistry:
         """
         result = "### Los jetzt - beweg dich!\n"
 
-        result += "| {} | | {} | | {} | |\n| :---- | :---- | :---- |\n".format(*map(lambda d: d.value[1], self. Difficulty))
+        result += "| {} | | {} | | {} | |\n| :---- | :---- | :---- | :---- | :---- | :---- |\n".format(*map(lambda d: d.value[1], self. Difficulty))
         for i in range(self._mobility_count + self._strength_count):
             result += "|"
             for diff in sorted(self.Difficulty):
