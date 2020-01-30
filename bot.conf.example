@@ -12,6 +12,7 @@ exercise_file = exercises.json
 # first/final hour for workouts
 bot_active_from = 10
 bot_active_to = 17
+bot_active_on_weekend = False
 
 # min/max time between two workouts
 exercise_between_min = 90

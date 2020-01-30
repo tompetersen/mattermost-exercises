@@ -1,3 +1,4 @@
+import datetime
 import sys
 import time
 import random
@@ -24,6 +25,7 @@ class ConfigKey(Enum):
     EXERCISE_FILE = "exercise_file"
     BOT_ACTIVE_FROM = "bot_active_from"
     BOT_ACTIVE_TO = "bot_active_to"
+    BOT_ACTIVE_ON_WEEKEND = "bot_active_on_weekend"
     EXERCISE_BETWEEN_MIN = "exercise_between_min"
     EXERCISE_BETWEEN_MAX = "exercise_between_max"
     EXERCISE_STRENGTH_COUNT = "exercise_strength_count"
@@ -37,6 +39,10 @@ def conf_get(conf: configparser.ConfigParser, key: ConfigKey):
 
 def conf_getint(conf: configparser.ConfigParser, key: ConfigKey):
     return conf.getint(C_SEC, key.value)
+
+
+def conf_getboolean(conf: configparser.ConfigParser, key: ConfigKey):
+    return conf.getboolean(C_SEC, key.value)
 
 
 HELP_TEXT = """
@@ -87,6 +93,7 @@ if __name__ == '__main__':
 
     active_from = conf_getint(c, ConfigKey.BOT_ACTIVE_FROM)
     active_to = conf_getint(c, ConfigKey.BOT_ACTIVE_TO)
+    active_on_weekend = conf_getboolean(c, ConfigKey.BOT_ACTIVE_ON_WEEKEND)
 
     wait_min = conf_getint(c, ConfigKey.EXERCISE_BETWEEN_MIN)
     wait_max = conf_getint(c, ConfigKey.EXERCISE_BETWEEN_MAX)
@@ -94,7 +101,8 @@ if __name__ == '__main__':
     while True:
         try:
             current_hour = int(time.strftime("%H"))
-            if active_from <= current_hour <= active_to:
+            is_week_day = (datetime.datetime.today().weekday() < 5)  # mon = 0, ..., sat = 5, sun = 6
+            if (active_from <= current_hour <= active_to) and (is_week_day or active_on_weekend):
                 workout_message_handler.store_completed_workouts()
                 exercise_reg.create_new_workout_set()
 
