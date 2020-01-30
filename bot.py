@@ -18,7 +18,7 @@ class ConfigKey(Enum):
     SERVER = "server"
     PORT = "port"
     USERNAME = "username"
-    PASSWORD = "password"
+    TOKEN = "token"
     TEAM_NAME = "team_name"
     CHANNEL_NAME = "channel_name"
     EXERCISE_FILE = "exercise_file"
@@ -72,7 +72,7 @@ if __name__ == '__main__':
             url=conf_get(c, ConfigKey.SERVER),
             port=conf_getint(c, ConfigKey.PORT),
             username=conf_get(c, ConfigKey.USERNAME),
-            password=conf_get(c, ConfigKey.PASSWORD),
+            token=conf_get(c, ConfigKey.TOKEN),
             team_name=conf_get(c, ConfigKey.TEAM_NAME),
             channel_name=conf_get(c, ConfigKey.CHANNEL_NAME),
             help_text=HELP_TEXT,

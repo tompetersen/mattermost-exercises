@@ -8,7 +8,7 @@ from mattermostdriver import Driver
 class ChannelBot:
     """ A mattermost bot acting in a specified channel. """
 
-    def __init__(self, url, username, password, channel_name, team_name, help_text, message_handler, port=8065, scheme='https', debug=False):
+    def __init__(self, url, username, token, channel_name, team_name, help_text, message_handler, port=8065, scheme='https', debug=False):
         self.username = username
         self.help_text = help_text
         self.message_handler = message_handler
@@ -17,8 +17,7 @@ class ChannelBot:
         self.driver = Driver({
             'url': url,
             'port': port,
-            'login_id': username,
-            'password': password,
+            'token': token,
             'scheme': scheme,
             'debug': debug,
         })
