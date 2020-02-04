@@ -1,7 +1,6 @@
 [bot]
 server = 127.0.0.1
 port = 8065
-username = bot
 token = testtoken
 team_name = test
 channel_name = test

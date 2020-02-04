@@ -8,8 +8,7 @@ from mattermostdriver import Driver
 class ChannelBot:
     """ A mattermost bot acting in a specified channel. """
 
-    def __init__(self, url, username, token, channel_name, team_name, help_text, message_handler, port=8065, scheme='https', debug=False):
-        self.username = username
+    def __init__(self, url, token, channel_name, team_name, help_text, message_handler, port=8065, scheme='https', debug=False):
         self.help_text = help_text
         self.message_handler = message_handler
         self.debug = debug
@@ -21,11 +20,9 @@ class ChannelBot:
             'scheme': scheme,
             'debug': debug,
         })
-        self.driver.login()
-
-        # get userid for username since it is not automatically set to driver.client.userid ... for reasons
-        res = self.driver.users.get_user_by_username(username)
-        self.userid = res['id']
+        user_result = self.driver.login()
+        self.username = user_result["username"]
+        self.userid = user_result["id"]
 
         # get channel id for name
         res = self.driver.channels.get_channel_by_name_and_team_name(team_name, channel_name)

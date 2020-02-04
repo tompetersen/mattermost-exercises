@@ -18,7 +18,6 @@ C_SEC = 'bot'
 class ConfigKey(Enum):
     SERVER = "server"
     PORT = "port"
-    USERNAME = "username"
     TOKEN = "token"
     TEAM_NAME = "team_name"
     CHANNEL_NAME = "channel_name"
@@ -77,7 +76,6 @@ if __name__ == '__main__':
         bot = ChannelBot(
             url=conf_get(c, ConfigKey.SERVER),
             port=conf_getint(c, ConfigKey.PORT),
-            username=conf_get(c, ConfigKey.USERNAME),
             token=conf_get(c, ConfigKey.TOKEN),
             team_name=conf_get(c, ConfigKey.TEAM_NAME),
             channel_name=conf_get(c, ConfigKey.CHANNEL_NAME),
